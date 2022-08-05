@@ -11,8 +11,13 @@ Frontend (React): https://revaldir-memories-app.netlify.app/
 Backend API (Express, MongoDB, Node.js): https://mern-memories-mjs.herokuapp.com/
 
 # API DOCS #
+### POSTS ###
 1. .../posts/ (GET) => Fetch all posts
 2. .../posts/ (POST) => Create new post
 3. .../posts/:id (PATCH) => Update post by _id
 4. .../posts/:id (DELETE) => Delete post by _id
 5. .../posts/:id/likePost (PATCH) => Increase posts like count by _id
+
+### AUTH ###
+1. .../user/signup (POST) => Sign up new user using email & password
+2. .../user/signin (POST) => Sign in to an existing user with JWT
